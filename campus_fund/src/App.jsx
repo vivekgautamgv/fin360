@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css'; // Assuming you have a CSS file for styling
 import logo from './assets/logo.png';
+import HomePage from './components/Homepage';
 
 
 
@@ -9,12 +10,13 @@ import logo from './assets/logo.png';
 const App = () => {
   return (
     <>
+    
     <div className="app">
       {/* Navbar */}
       <nav className="navbar">
   <div className="logo">
-    <img src={logo} alt="FinChat Logo" /> {/* Replace with logo path */}
-    <span className="logo-name">Fin360</span> {/* Add this line */}
+    <img src={logo} alt="FinChat Logo" /> 
+    <span className="logo-name">Fin360</span> 
   </div>
   <div className="nav-links">
     <a href="#">Pricing</a>
@@ -45,7 +47,14 @@ const App = () => {
         </div>
       </div>
     </div>
+    
+    <div>
+    <HomePage/>
 
+
+    </div>
+
+    
     </>
   );
 };

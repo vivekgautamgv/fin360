@@ -29,6 +29,6 @@
     "vite": "^5.4.1"
   },
   "resolutions": {
-    "styled-components" : "^5"
+    "styled-components": "^5"
   }
 }
