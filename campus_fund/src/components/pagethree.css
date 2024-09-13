@@ -1,0 +1,86 @@
+/* Animation classes for the page transition */
+.page-animation-enter {
+  opacity: 0;
+  transform: translateY(-200px); /* Starts slightly above */
+}
+
+.page-animation-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 4s, transform 4s ease;
+}
+
+.page-animation-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-animation-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 4s, transform 4s ease;
+}
+
+.page-third-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 1000px;
+  width: 90%;
+}
+
+.data-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkmark-icon {
+  width: 560px;
+  height: 560px;
+  margin-left: -100px;
+  margin-top: -10px;
+}
+
+.text-content {
+  flex: 2;
+  margin-left: 150px;
+}
+
+.text-content h1 {
+  font-size: 52px;
+  color: #333;
+}
+
+.highlight-text {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #666;
+}
+
+.info-button {
+  background-color: #e3e6bd;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  line-height: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.info-button:hover {
+  background-color: #c9793c;
+}
