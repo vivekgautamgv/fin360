@@ -39,10 +39,10 @@ function App() {
 
           {/* Search Bar with Questions */}
           <div className="questions">
-            <div className="question">What is Spotify's premium subscriber count?</div>
-            <div className="question">Show me stocks in South America with the highest dividend yield.</div>
-            <div className="question">Summarize Microsoft's latest earnings call.</div>
-            <div className="question">What are Mark Zuckerberg's and Satya Nadella's recent comments about AI?</div>
+            <div className="question">What is the total AUM of ICICI Prudential Mutual Fund?</div>
+            <div className="question">Show me Indian stocks with the highest dividend yield.</div>
+            <div className="question">Summarize Reliance Industries' latest earnings call.</div>
+            <div className="question">What are the recent comments from Nandan Nilekani and Uday Kotak about the future of AI in India?</div>
           </div>
 
           {/* Search Bar */}
