@@ -1,17 +1,17 @@
 import React from 'react';
 import './FinancialAdvisor.css'; 
 import tickIcon from '../assets/tick1.png'; 
-import h1Video from '../assets/hi.mp4'; 
+import h1Video from '../assets/HI.mp4'; 
 
 const FinancialAdvisor = () => {
   return (
     <div className="financial-advisor-container">
       <div className="left-content">
-        <h1 className="header">Maximize Your Financial Future with Our AI Advisor</h1>
+        <h1 className="header">Maximize Your Financial Future potential with Our AI Advisor</h1>
         <div className="features">
           <div className="feature-item">
             <img src={tickIcon} alt="Tick Icon" className="tick-icon" />
-            <p><strong>Personalized Financial Advice:</strong> Our AI-powered advisor tailors financial plans based on your unique goals, income, and expenses, ensuring strategies that align with your personal financial journey.</p>
+            <p><strong>Personalized Financial Advice:</strong> Our AI-powered advisor tailors financial plans based on your unique goals, income, and expenses, ensuring strategies which align with your personal financial journey.</p>
           </div>
           <div className="feature-item">
             <img src={tickIcon} alt="Tick Icon" className="tick-icon" />
@@ -19,7 +19,7 @@ const FinancialAdvisor = () => {
           </div>
           <div className="feature-item">
             <img src={tickIcon} alt="Tick Icon" className="tick-icon" />
-            <p><strong>Real-Time Updates:</strong> Stay on top of your financial health with real-time insights and recommendations as market conditions and your financial situation change.</p>
+            <p><strong>Real-Time Updates:</strong> Stay on top of your Financial health with real-time insights and recommendations as market conditions and your financial situation change.</p>
           </div>
           <div className="feature-item">
             <img src={tickIcon} alt="Tick Icon" className="tick-icon" />

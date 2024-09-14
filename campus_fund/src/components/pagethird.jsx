@@ -19,12 +19,12 @@ const PageThird = () => {
             <img src={icon} alt="Checkmark" className="checkmark-icon" />
           </div>
           <div className="text-content">
-            <h1>Make Financial Planning with finance specific LLM Model</h1>
+            <h1>Financial Planning with a Finance-Specific LLM Model</h1>
             <p className="highlight-text">
-              Using a large language model, we generated responses that offered you richer insights to support your decision-making process.
+              Using a large language model, we generate responses that offer you richer insights to support your decision-making process.
             </p>
             <div className="button-section">
-              <button className="info-button">Now Take Better financial Decisions</button>
+              <button className="info-button">Take Better Financial Decisions Now!</button>
             </div>
           </div>
         </div>
