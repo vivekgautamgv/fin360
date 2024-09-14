@@ -1,13 +1,13 @@
 import React from 'react';
 import './pagethree.css';
-import icon from '../assets/icon.png'; // Adjust the path based on the actual structure of your project
+import icon from '../assets/icon.png'; 
 import { CSSTransition } from 'react-transition-group';
 
 const PageThird = () => {
   const [inProp, setInProp] = React.useState(false);
 
   React.useEffect(() => {
-    // Trigger animation when the component is mounted
+
     setInProp(true);
   }, []);
 

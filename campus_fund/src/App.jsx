@@ -16,7 +16,7 @@ function App() {
     <>
 
       <div className="app">
-        {/* Navbar */}
+       
         <nav className="navbar">
           <div className="logo">
             <img src={logo} alt="FinChat Logo" />
@@ -30,14 +30,13 @@ function App() {
           </div>
         </nav>
 
-        {/* Main Content */}
+        
         <div className="main-content">
           <p className="live-notification">
           🎉 Fin360 website is now live! 🎉
           </p>
           <h1><text>The future of Financial Planning,<br />Learning and Investing powered by AI.</text></h1>
 
-          {/* Search Bar with Questions */}
           <div className="questions">
             <div className="question">What is the total AUM of ICICI Prudential Mutual Fund?</div>
             <div className="question">Show me Indian stocks with the highest dividend yield.</div>
@@ -45,7 +44,7 @@ function App() {
             <div className="question">What are the recent comments from Nandan Nilekani and Uday Kotak about the future of AI in India?</div>
           </div>
 
-          {/* Search Bar */}
+       
           <div className="search-bar">
             <input type="text" placeholder="Search your next investment idea..." />
           </div>

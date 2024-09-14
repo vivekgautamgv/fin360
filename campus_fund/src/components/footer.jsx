@@ -11,7 +11,7 @@ const Footer = () => {
       const windowHeight = window.innerHeight;
 
       if (footerPosition < windowHeight) {
-        footer.classList.add('show'); // Add 'show' class when in view
+        footer.classList.add('show'); 
       }
     };
 

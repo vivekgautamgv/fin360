@@ -72,7 +72,7 @@
     margin-top: 10px;
   }
   
-  /* Animations */
+  
   .faq-question::after {
     content: '+';
     font-size: 1.5rem;
@@ -83,12 +83,12 @@
     content: '-';
   }
   
-  /* Smooth Hover Effect */
+ 
   .faq-item:hover .faq-question {
     color: #0056b3;
   }
+ 
   
-  /* Subtle transition effects */
   .faq-item {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }

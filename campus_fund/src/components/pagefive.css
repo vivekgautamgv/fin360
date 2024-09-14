@@ -1,4 +1,4 @@
-/* General Styling */
+
 .page-five-container {
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@
     transform: scale(1.03);
   }
   
-  /* Image Section */
+ 
   .image-section {
     flex: 1;
     display: flex;
@@ -49,7 +49,7 @@
     transform: scale(1.05);
   }
   
-  /* Text Section */
+
   .text-section {
     flex: 1;
     display: flex;
@@ -79,7 +79,7 @@
     max-width: 700px;
   }
   
-  /* Image Section Additional Styles */
+
   .image-section:before {
     content: '';
     position: absolute;
@@ -104,7 +104,7 @@
     z-index: -1;
   }
   
-  /* Responsive Design */
+
   @media (max-width: 768px) {
     .content-wrapper {
       flex-direction: column;
