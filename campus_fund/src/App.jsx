@@ -24,7 +24,7 @@ function App() {
           </div>
           <div className="nav-links">
             <a href="#">Pricing</a>
-            <a href="#">Fin360</a>
+            <a href="#">Fin60</a>
             <a href="#">About Us</a>
             <button className="dashboard-btn">Sign Up Free</button>
           </div>
