@@ -1,8 +1,10 @@
 import React from 'react';
-import './App.css'; 
+// import './App.css'; 
 import logo from './assets/logo.png';
 import HomePage from './components/Homepage';
 import PageThird from './components/pagethird';
+import FinanceLearningSection from './components/FinanceLearningSection.jsx';
+import FinancialAdvisor from './components/FinancialAdvisor.jsx';
 
 
 
@@ -47,14 +49,21 @@ function App() {
           </div>
         </div>
       </div>
-
       <div>
-        <HomePage />
-      </div>
+          <FinanceLearningSection/>
+        </div>
+
+      
       <div>
         <PageThird />
         </div>
-
+{/* 
+        <div>
+        <HomePage />
+      </div> */}
+      <div>
+        <FinancialAdvisor/>
+      </div>
 
     </>
   );
