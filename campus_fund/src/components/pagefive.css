@@ -5,7 +5,7 @@
     align-items: center;
     min-height: 100vh;
     margin-top: 10px;
-    background-color: #f4f7fb;
+    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
     padding: 20px;
   }
@@ -32,7 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #eef2f9;
+    background-color: #dee6f4;
     padding: 20px;
     border-radius: 10px;
     box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.05);
@@ -64,7 +64,7 @@
     font-weight: 700;
     color: #2a3a57;
     margin-bottom: 25px;
-    border-bottom: 4px solid #ffcb05;
+    border-bottom: 4px solid #61cc68;
     display: inline-block;
     padding-bottom: 10px;
     letter-spacing: 1px;
