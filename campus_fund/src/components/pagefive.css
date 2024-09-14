@@ -1,0 +1,130 @@
+/* General Styling */
+.page-five-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 10px;
+    background-color: #f4f7fb;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px #453f091a;
+    max-width: 1200px;
+    padding: 40px;
+    gap: 50px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .content-wrapper:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Image Section */
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eef2f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+  
+  .illustration {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-section:hover .illustration {
+    transform: scale(1.05);
+  }
+  
+  /* Text Section */
+  .text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 30px;
+    background-color: #fff;
+  }
+  
+  .title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #2a3a57;
+    margin-bottom: 25px;
+    border-bottom: 4px solid #ffcb05;
+    display: inline-block;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.7;
+    text-align: justify;
+    font-weight: 400;
+    max-width: 700px;
+  }
+  
+  /* Image Section Additional Styles */
+  .image-section:before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: #ffcb05;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  
+  .image-section:after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    background-color: #5aa5ff;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .content-wrapper {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 2.2rem;
+    }
+  
+    .description {
+      font-size: 1.1rem;
+    }
+  
+    .image-section {
+      margin-bottom: 30px;
+    }
+  
+    .illustration {
+      max-width: 80%;
+    }
+  }
+  

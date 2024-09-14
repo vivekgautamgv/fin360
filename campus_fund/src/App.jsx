@@ -5,7 +5,7 @@ import HomePage from './components/Homepage';
 import PageThird from './components/pagethird';
 import FinanceLearningSection from './components/FinanceLearningSection.jsx';
 import FinancialAdvisor from './components/FinancialAdvisor.jsx';
-
+import PageFive from './components/pagefive.jsx'
 
 
 
@@ -63,6 +63,9 @@ function App() {
       </div> */}
       <div>
         <FinancialAdvisor/>
+      </div>
+      <div>
+        <PageFive/>
       </div>
 
     </>
