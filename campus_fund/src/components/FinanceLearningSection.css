@@ -3,13 +3,14 @@
     text-align: center;
     padding: 50px;
     background-color: #2f1a52;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 5%;
   }
   
   .main-heading {
     font-size: 3rem;
     margin-bottom: 60px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #ffffff;
     font-weight: bold;
   }
@@ -43,14 +44,14 @@
   .finance-card h3 {
     font-size: 1.8rem;
     margin-bottom: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #2c3e50;
     font-weight: 600;
   }
   
   .finance-card p {
     font-size: 1.1rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #7f8c8d;
     line-height: 1.6;
   }

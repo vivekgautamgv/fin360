@@ -1,0 +1,108 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #000;
+    color: #fff;
+    padding: 60px;
+    min-height: 50vh; /* Make the footer section take up more vertical space */
+    opacity: 0; /* Hidden initially */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Smooth transition effects */
+    transform: translateY(50px); /* Start slightly lower for animation */
+  }
+  
+  .footer-container.show {
+    opacity: 1; /* Fade in effect */
+    transform: translateY(0); /* Slide up */
+  }
+  
+  .footer-left {
+    max-width: 60%; /* Increased width */
+  }
+  
+  .footer-left h1 {
+    font-size: 3.5em; /* Larger font size */
+    line-height: 1.1;
+    margin-bottom: 30px;
+  }
+  
+  .signup-button {
+    background-color: #18A04D;
+    border: none;
+    color: white;
+    padding: 18px 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s ease; /* Smooth background color change */
+  }
+  
+  .signup-button:hover {
+    background-color: #15a040; /* Darker green on hover */
+  }
+  
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    margin-right: -1580px;
+    align-items: flex-end;
+    max-width: 30%; /* Better alignment on the right */
+  }
+  
+  .footer-right .connect, 
+  .footer-right .contact {
+    margin-bottom: 30px;
+  }
+  
+  .footer-right h3 {
+    font-size: 1.5em; /* Slightly larger for better visibility */
+    margin-bottom: 15px;
+  }
+  
+  .footer-right ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-right ul li {
+    margin-bottom: 12px;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .footer-right ul li:hover {
+    color: #18A04D; /* Change color on hover */
+  }
+  
+  .footer-bottom {
+    text-align: right;
+    width: 100%;
+    margin-top: 80px;
+    margin-top: 400px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-left, .footer-right {
+      max-width: 100%;
+      margin-bottom: 40px;
+    }
+  
+    .footer-right {
+      align-items: center;
+    }
+  }
+  

@@ -7,6 +7,7 @@ import FinanceLearningSection from './components/FinanceLearningSection.jsx';
 import FinancialAdvisor from './components/FinancialAdvisor.jsx';
 import PageFive from './components/pagefive.jsx'
 import FAQ from './components/faq.jsx'
+import Footer from './components/footer.jsx';
 
 
 
@@ -69,6 +70,7 @@ function App() {
         <PageFive/>
       </div>
      <div><FAQ/></div>
+     <div><Footer/></div>
     </>
   );
 }
