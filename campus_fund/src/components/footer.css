@@ -5,23 +5,23 @@
     background-color: #000;
     color: #fff;
     padding: 60px;
-    min-height: 50vh; /* Make the footer section take up more vertical space */
-    opacity: 0; /* Hidden initially */
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Smooth transition effects */
-    transform: translateY(50px); /* Start slightly lower for animation */
+    min-height: 50vh; 
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; 
+    transform: translateY(50px); 
   }
   
   .footer-container.show {
-    opacity: 1; /* Fade in effect */
-    transform: translateY(0); /* Slide up */
+    opacity: 1; 
+    transform: translateY(0); 
   }
   
   .footer-left {
-    max-width: 60%; /* Increased width */
+    max-width: 60%; 
   }
   
   .footer-left h1 {
-    font-size: 3.5em; /* Larger font size */
+    font-size: 3.5em; 
     line-height: 1.1;
     margin-bottom: 30px;
   }
@@ -36,11 +36,11 @@
     font-weight: bold;
     cursor: pointer;
     border-radius: 50px;
-    transition: background-color 0.3s ease; /* Smooth background color change */
+    transition: background-color 0.3s ease; 
   }
   
   .signup-button:hover {
-    background-color: #15a040; /* Darker green on hover */
+    background-color: #15a040; 
   }
   
   .footer-right {
@@ -48,7 +48,7 @@
     flex-direction: column;
     margin-right: -1580px;
     align-items: flex-end;
-    max-width: 30%; /* Better alignment on the right */
+    max-width: 30%; 
   }
   
   .footer-right .connect, 
@@ -57,7 +57,7 @@
   }
   
   .footer-right h3 {
-    font-size: 1.5em; /* Slightly larger for better visibility */
+    font-size: 1.5em; 
     margin-bottom: 15px;
   }
   
@@ -70,11 +70,11 @@
     margin-bottom: 12px;
     cursor: pointer;
     text-decoration: underline;
-    transition: color 0.3s ease; /* Smooth color transition */
+    transition: color 0.3s ease; 
   }
   
   .footer-right ul li:hover {
-    color: #18A04D; /* Change color on hover */
+    color: #18A04D; 
   }
   
   .footer-bottom {
